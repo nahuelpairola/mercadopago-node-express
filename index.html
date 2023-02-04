@@ -24,9 +24,11 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ut porro recusandae. Consectetur pariatur laboriosam odit ducimus temporibus. Architecto at blanditiis soluta unde distinctio consequatur facilis obcaecati, veniam tempora animi!
                         </p>
                         <hr>
-                        <h4>Precio $2500</h4>
+                        <h4>Precio $100</h4>
                         <div>
-                            <form action="">
+                            <form action="http://localhost:3000/checkout" method="POST">
+                                <input type="hidden" name="price" value="100" >
+                                <input type="hidden" name="title" value="Remera de mujer manga corta">
                                 <input type="submit" value="Comprar ahora" class="btn btn-primary btn-block">
                             </form>
                         </div>
